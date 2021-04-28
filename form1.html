@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="class1.css">
+
+    <title>Document</title>
+    <style>
+        body{background-color: blue;}
+    </style>
+</head>
+<body>
+    <div class="border" style="text-align: center; background: red;">
+        <form>
+            <fieldset style="margin: auto;">
+                <legend>Personal Information</legend>
+                <div class="college">
+                <b> ENTER FIRST NAME</b><br>
+                <input type="text" placeholder="Enter your first name"> <br><br>
+                <b> ENTER LAST NAME</b><br>
+                <input type="text" placeholder="Enter your last name"> <br><br>
+                <b>PHONE NUMBER</b><br>
+                <input type="text" placeholder="Enter your phone number"> <br><br>
+                </div">
+                <div>
+                <b>EMAIL</b><br>
+                <input type="text" placeholder="Enter your email"> <br><br>
+                <b>COLLEGE NAME</b><br>
+                <input type="text" placeholder="Enter college name"> <br><br>
+                <b>DATE</b><br>
+                <input type="date" placeholder="Enter date"> <br><br>
+                </div>
+                <div class="center">
+                <b>YEAR</b><br>
+                <input type="text" placeholder="Year"> <br><br>
+                <b> Branch</b><br>
+                <input list="branch"name="br" id="browser">
+                <datalist id="branch">
+                    <option value="computer science and engineering">
+                        <option value="Mechnaical engineering">
+                            <option val="Electrical engineering">
+                                <option value="Civil engineering">
+                                    <option value="Electronic and communication engineering">
+                </datalist><br><br>
+                </div>
+                <input type="submit">
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>
